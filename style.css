@@ -95,44 +95,28 @@ footer {
 
 /*batman picture*/
 .BatmanGame {
-	background: url(BatmanGame.jpeg);
 	height: 150px;
-	width: 75px;
-	margin-left: 40px;
-	margin-bottom: 30px;
-	margin-top: 20px;
-	padding-right: 0;
-	padding-left: 0;
+	background: url(BatmanGame.jpeg);
+	background-size: relative;
 }
 
 /*Basketball Picture*/
 .BasketballGame {
-	background: url(basketball.jpg);
 	height: 150px;
-	width: 150px;
-	margin-left: 40px;
-	margin-bottom: 30px;
-	margin-top: 20px;
+	background: url(basketball.jpg);
+	background-size: relative;
 }
 
 /*Dinosaur Picture*/
 .Dinosaurs {
 	background: url(dinosaurs.jpeg);
 	height: 150px;
-	width: 150px;
-	margin-left: 40px;
-	margin-bottom: 30px;
-	margin-top: 20px;
 }
 
 /*Northwestern Picture*/
 .Northwestern {
 	background: url(northwestern.jpeg);
 	height: 150px;
-	width: 150px;
-	margin-left: 40px;
-	margin-bottom: 30px;
-	margin-top: 20px;
 }
 
 /*caption of the pictures*/
