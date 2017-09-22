@@ -24,6 +24,7 @@ body {
 #my_section {
 	background-color: white;
 	margin-left: 40px;
+	margin-bottom: 10%;
 }
 
 #sidepanel {
@@ -34,6 +35,10 @@ body {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
+}
+
+.panel {
+	margin-bottom: 50%;
 }
 
 .sectitle {
@@ -127,7 +132,7 @@ footer {
 	line-height: 30px;
 	font-size: 12px;
 	text-align: center;
-	position: relative;
+	position: absolute;
 	top: 65%;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-weight: normal;
@@ -156,3 +161,26 @@ footer {
 	padding: 10px 15px;
 	font-size: 12px
 }
+
+/*
+
+
+MEDIA QUERIES!
+
+*/
+
+@media only screen and (max-width: 768) {
+	.col-md-3 .col-sm-7 .col-xs-5 .BatmanGame {
+		margin-right: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
