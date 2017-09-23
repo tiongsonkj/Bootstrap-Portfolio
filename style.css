@@ -169,12 +169,24 @@ MEDIA QUERIES!
 
 */
 
-@media only screen and (max-width: 768) {
-	.col-md-3 .col-sm-7 .col-xs-5 .BatmanGame {
+/*@media only screen and (min-width: 768) {*/
+	/*.col-md-3 .col-sm-7 .col-xs-5 .BatmanGame {
 		margin-right: 20px;
+	}*/
+/*	#sidepanel {
+		width: 100%;
+		margin: 40px;
 	}
-}
+}*/
 
+ /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 768px) {
+
+		#sidepanel {
+		width: 83.33333333%;
+		margin-left: 40px;
+    }
+}
 
 
 
